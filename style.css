@@ -1,0 +1,114 @@
+/* Importa a fonte Cabin do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+/* Corpo da página */
+body {
+    font-family: 'Cabin', sans-serif; /* Fonte principal */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Tela inteira */
+    margin: 0;
+    background-color: #e0e0e0; /* Fundo cinza claro */
+    color: #333333; /* Cor do texto padrão */
+}
+
+/* Container principal */
+.container {
+    text-align: center;
+    background-color: #ffffff; /* Fundo branco */
+    padding: 30px 20px; /* Espaçamento interno */
+    border-radius: 15px; /* Cantos arredondados */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1); /* Sombra suave */
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Título principal */
+h1 {
+    color: #2C3E50; /* Azul escuro */
+    margin-bottom: 15px;
+}
+
+/* Display de Data e Hora */
+#dataHora {
+    font-size: 1.1em;
+    color: #3498db; /* Azul */
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Input de tarefas */
+input[type="text"] {
+    width: 90%; /* Ocupa quase toda a largura */
+    padding: 12px; /* Espaço interno */
+    border: 2px solid #3498db; /* Borda azul */
+    border-radius: 10px; /* Cantos arredondados */
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 1em;
+    transition: 0.3s;
+}
+
+/* Efeito de foco no input */
+input[type="text"]:focus {
+    border-color: #2C3E50; /* Azul mais escuro */
+    box-shadow: 0 0 10px rgba(52,152,219,0.3); /* Sombra azul */
+}
+
+/* Botão de adicionar */
+button {
+    background-color: #3498db; /* Azul */
+    color: #ffffff; /* Texto branco */
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: 0.3s;
+}
+
+/* Hover do botão */
+button:hover {
+    background-color: #2C3E50; /* Azul escuro ao passar o mouse */
+}
+
+/* Lista de tarefas */
+ul {
+    list-style: none; /* Remove marcadores */
+    padding: 0;
+    margin-top: 25px;
+    text-align: left; /* Alinha o texto das tarefas à esquerda */
+}
+
+/* Cada item da lista */
+ul li {
+    background-color: #f4f4f4; /* Fundo cinza claro */
+    padding: 14px 20px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinha o texto e o ícone verticalmente */
+    word-break: break-word; /* Quebra palavras longas para não estourar o layout */
+}
+
+/* Ícone da lixeira */
+.fa-trash {
+    color: #e74c3c; /* Cor vermelha */
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 15px; /* Adiciona um espaço entre o texto e a lixeira */
+}
+
+.fa-trash:hover {
+    color: #c0392b; /* Vermelho mais escuro */
+    transform: scale(1.2); /* Aumenta o tamanho no hover */
+}
+
+/* Mensagem de feedback */
+#mensagem {
+    color: #27ae60; /* Verde */
+    font-weight: bold;
+    min-height: 20px; /* Garante que o layout não "pule" quando a mensagem aparece */
+}
