@@ -1,10 +1,12 @@
 # Lista de Tarefas Interativa com JavaScript
 
+Site pronto : https://tauanneres.github.io/Lista-de-Tarefas-Java-Script/
+
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-Este é um projeto de estudo criado por **Tauan Neres** com o objetivo principal de aprofundar o conhecimento em JavaScript, focando em como suas funções se conectam e manipulam elementos HTML para criar uma aplicação interativa e dinâmica.
+Este é um projeto de estudo criado por mim com o objetivo principal de aprofundar o conhecimento em JavaScript, focando em como suas funções se conectam e manipulam elementos HTML para criar uma aplicação interativa e dinâmica.
 
 O projeto serve como uma demonstração prática da integração fundamental entre as três principais tecnologias do front-end:
 
